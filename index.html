@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Link to stylesheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>1RM</title>
+  </head>
+  <body>
+    <header>
+      <!--Header Title-->
+      <h1>One Rep Max Calculator</h1>
+    </header>
+    <main>
+      <form id="form">
+        <div class="form-field-one">
+            <label for="reps" >Enter Your Reps:</label>
+            <input id="reps" name="reps" class="reps" type="text"/>
+        </div>
+        <div class="form-field-two">
+            <label for="weight">Enter Your Weight</label>
+            <input id="weight" name="weight" class="weight" type="text"/>
+        </div>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+      <p class="output"></p>
+    </main>
+    <script src='./index.js'/>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form-field-one {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 16px;
+}
+
+.form-field-two {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 16px;
+}
